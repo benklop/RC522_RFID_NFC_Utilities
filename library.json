@@ -1,0 +1,32 @@
+{
+    "name":"RC522_RFID_NFC_Utilities",
+    "description":"A few utilities to make reading records from NFC formatted cards possible",
+    "keywords":"RFID,NDEF,NFC,RC522",
+    "authors": [
+      {
+        "name": "Ben Klopfenstein <benklop@gmail.com>",
+        "maintainer": true
+      },
+      {
+        "name": "Brian Lough <brian.d.lough@gmail.com>",
+        "maintainer": false
+      }
+    ],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/benklop/RC522_RFID_NFC_Utilities"
+    },
+    "version": "0.2.0",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "dependencies": [
+      {
+        "name": "miguelbalboa/MFRC522"
+      }
+    ],
+    "build": {
+    }
+  }
+  
